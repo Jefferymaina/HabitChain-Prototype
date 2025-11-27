@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 id="welcome"></h2>
+
+<div>
+    <input id="habitInput" type="text" placeholder="New habit">
+    <button onclick="addHabit()">Add Habit</button>
+</div>
+
+<ul id="habitList"></ul>
+
+<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
